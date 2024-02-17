@@ -6,10 +6,12 @@ Note that the actual Lean 4 syntax is somewhat different from the commands used 
 To set up a Lean 4 environment:
 - On linux, run (don't sudo):
 
-  `curl https://raw.githubusercontent.com/leanprover/elan/master/elan-init.sh -sSf | sudo sh`
+  `curl https://raw.githubusercontent.com/leanprover/elan/master/elan-init.sh -sSf | sh`
 - In Code-OSS or VSCode install the `lean4` extension
 
-To create a new project with `Mathlib` library (which you will probably want):
+To create a new project that depends on `Mathlib` library (which you will probably want):
 - Create a folder `PROJECTNAME` for your project
 - `cd PROJECTNAME` into the folder
 - Run `lake init PROJECTNAME math`
+
+The NNG4 repository can be found here: [https://github.com/leanprover-community/NNG4/](https://github.com/leanprover-community/NNG4/)
