@@ -10,7 +10,7 @@ package «NNG4_Solutions» where
   -- add any additional package configuration options here
 
 require mathlib from git
-  "https://github.com/leanprover-community/mathlib4.git"
+  "https://github.com/leanprover-community/mathlib4.git" @ "v4.8.0"
 
 @[default_target]
 lean_lib «NNG4Solutions» where

@@ -6,7 +6,6 @@ namespace MyNat
 
 
 -- idk. Declares MyNat.pow
-namespace MyNat
 opaque pow : MyNat → MyNat → MyNat
 
 

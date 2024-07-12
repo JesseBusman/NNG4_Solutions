@@ -1,4 +1,4 @@
-import Mathlib  -- Needed for 'apply .. at ..' tactic
+import Mathlib.Tactic  -- Needed for 'apply .. at ..' tactic
 import NNG4Solutions.Define_MyNat
 import NNG4Solutions.World_Algorithm_1
 

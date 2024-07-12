@@ -1,4 +1,4 @@
-import Mathlib -- Needed for symm and contrapose! tactics
+import Mathlib.Tactic -- Needed for symm and contrapose! tactics
 import NNG4Solutions.Define_MyNat
 
 namespace MyNat
